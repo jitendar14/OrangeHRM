@@ -43,6 +43,7 @@ public class ResuableBusinessFunctions {
 	driver.findElement(By.xpath(".//*[@id='menu_admin_Qualifications']")).click();
 	Thread.sleep(2000);
 	driver.findElement(By.id("menu_admin_viewSkills")).click();
+	System.out.println("Hello world");
 		
 	}
 	
