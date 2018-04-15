@@ -49,7 +49,7 @@ public class SanityTestSuiteFunctionDriven {
 	Assert.assertEquals(driver.findElement(By.id("welcome")).getText(),"Welcome Admin");
 	Thread.sleep(3000);
 	func.Logout();
-	System.out.println("Hello world");
+	System.out.println("Hello world2");
 	
 	}
 
